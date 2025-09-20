@@ -1,0 +1,7 @@
+
+export enum Page {
+  HOME = 'HOME',
+  TRADITIONAL = 'TRADITIONAL',
+  MODERN = 'MODERN',
+  COMPARISON = 'COMPARISON',
+}
