@@ -28,6 +28,14 @@
     .animate-fade-in-up {
       animation: fade-in-up 0.5s ease-out forwards;
     }
+    /* Utility class to hide scrollbars */
+    .hide-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .hide-scrollbar {
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+    }
   </style>
 </head>
   <body class="bg-gray-50 dark:bg-gray-900">
